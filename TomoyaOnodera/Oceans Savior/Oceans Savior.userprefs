@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MoveForPlayer.cs">
+    <Files>
+      <File FileName="Assets\Scripts\GyroRotate.cs" Line="16" Column="30" />
+      <File FileName="Assets\Scripts\Gyro.cs" Line="16" Column="15" />
+      <File FileName="Assets\Scripts\KabeTest.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CameraController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MoveForPlayer.cs" Line="20" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
