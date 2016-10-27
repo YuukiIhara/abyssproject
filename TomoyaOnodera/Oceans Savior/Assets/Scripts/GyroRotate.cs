@@ -2,6 +2,9 @@
 using System.Collections;
 public class GyroRotate : MonoBehaviour
 {
+	public GameObject EffectPrefab;
+	public Vector3 EffectRotation;
+
 	public float MaxSpeed;
     float yRotation; float xRotation;
 	Vector3 vec;
@@ -31,7 +34,7 @@ public class GyroRotate : MonoBehaviour
 	// スピードの増加
 	void AddSpeed()
 	{
-		MaxSpeed++;
+		MaxSpeed += 1.3f;
 	}
 
 	// あたり判定
@@ -45,6 +48,18 @@ public class GyroRotate : MonoBehaviour
 
 			// オブジェクトを削除
 			Destroy(other.gameObject);
+
+			if(EffectPrefab != null)
+			{
+				// Candyのポジションにエフェクトを表示
+				// インスタンシェイト
+				EffectRotation = transform.localEulerAngles;
+				Instantiate(
+					EffectPrefab,
+					other.transform.position,
+					Quaternion.Euler(EffectRotation)
+				);
+			}
 		}
 	}
 }
