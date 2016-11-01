@@ -5,9 +5,16 @@ public class GyroRotate : MonoBehaviour
 	public GameObject EffectPrefab;
 	public Vector3 EffectRotation;
 
+
 	public float MaxSpeed;
     float yRotation; float xRotation;
 	Vector3 vec;
+
+	float Speed_Y = 0.0f;
+	bool flag = false;
+
+	public GameObject mainCamera;
+	public GameObject subCamera;
 
     void Start()
     {
@@ -20,8 +27,11 @@ public class GyroRotate : MonoBehaviour
     void Update()
     {
 		//カメラの向いている方向に移動
-		vec = transform.localEulerAngles;
-		vec = new Vector3 (Mathf.Sin(vec.y*(Mathf.PI/180.0f))/100.0f*MaxSpeed, 0.0f,Mathf.Cos(vec.y*(Mathf.PI/180.0f))/100.0f*MaxSpeed);
+		if(flag == false)
+		{
+			vec = transform.localEulerAngles;
+			vec = new Vector3 (Mathf.Sin(vec.y*(Mathf.PI/180.0f))/100.0f*MaxSpeed,Speed_Y,Mathf.Cos(vec.y*(Mathf.PI/180.0f))/100.0f*MaxSpeed);
+		}
 		transform.position += vec;
 
 		// 加速度をカメラに反映する
@@ -54,12 +64,29 @@ public class GyroRotate : MonoBehaviour
 				// Candyのポジションにエフェクトを表示
 				// インスタンシェイト
 				EffectRotation = transform.localEulerAngles;
-				Instantiate(
+				Instantiate (
 					EffectPrefab,
 					other.transform.position,
-					Quaternion.Euler(EffectRotation)
-				);
+					Quaternion.Euler (EffectRotation));
 			}
+		}
+
+		// ゴールの判定
+		if(other.gameObject.tag == "Goal")
+		{
+			// Rigitbodyの削除
+			Destroy (this.gameObject.GetComponent<Rigidbody>());
+
+			// 上軸に移動量を加える
+			Speed_Y = 0.15f;
+			MaxSpeed += 25.0f;
+			vec = transform.localEulerAngles;
+			vec = new Vector3 (Mathf.Sin(vec.y*(Mathf.PI/180.0f))/100.0f*MaxSpeed,Speed_Y,Mathf.Cos(vec.y*(Mathf.PI/180.0f))/100.0f*MaxSpeed);
+			flag = true;
+
+			// カメラの切り替え
+			mainCamera.SetActive(false);
+			subCamera.SetActive (true);
 		}
 	}
 }
