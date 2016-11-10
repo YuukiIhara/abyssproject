@@ -99,6 +99,10 @@
      <Compile Include="Assets\JOKER\Scripts\Novel\Unity\MessageArea.cs" />
      <Compile Include="Assets\JOKER\Scripts\Novel\Unity\MessageFrame.cs" />
      <Compile Include="Assets\JOKER_GAME\Plugins\PluginComponent.cs" />
+     <Compile Include="Assets\JOKER_GAME\live2D\Scripts\FadeInOut.cs" />
+     <Compile Include="Assets\JOKER_GAME\live2D\Scripts\L2DPhysics.cs" />
+     <Compile Include="Assets\JOKER_GAME\live2D\Scripts\L2DPose.cs" />
+     <Compile Include="Assets\JOKER_GAME\live2D\Scripts\SimpleModel.cs" />
      <Compile Include="Assets\Scripts\AutoDestroyEffect.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\Gyro.cs" />
@@ -106,19 +110,28 @@
      <Compile Include="Assets\Scripts\KabeTest.cs" />
      <Compile Include="Assets\Scripts\MoveForPlayer.cs" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\libs\utils.txt" />
+     <None Include="Assets\JOKER_GAME\live2D\Resources\Resources\shader\merged\Live2D-NormalAndAdd.shader" />
+     <None Include="Assets\JOKER_GAME\live2D\Resources\Resources\shader\merged\Live2D-NormalAndAddMasked.shader" />
+     <None Include="Assets\JOKER_GAME\live2D\Resources\Resources\shader\merged\Live2D-Masked-PremultipliedAlpha.shader" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\tall\libs\utils.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\libs\save.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\title.txt" />
+     <None Include="Assets\JOKER_GAME\live2D\Resources\Resources\shader\Live2D-SetupMask.shader" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\tall\libs\save.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\tall\title.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\tall\system.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene1.txt" />
+     <None Include="Assets\JOKER_GAME\live2D\Resources\Resources\shader\merged\Live2D-Mult.shader" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\system.txt" />
+     <None Include="Assets\JOKER_GAME\live2D\Resources\Resources\shader\merged\Live2D.shader" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\libs\menu.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\first.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\tall\libs\menu.txt" />
+     <None Include="Assets\JOKER_GAME\live2D\Resources\Resources\shader\merged\Live2D-Masked.shader" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\tall\scene1.txt" />
+     <None Include="Assets\JOKER_GAME\live2D\Resources\Resources\shader\merged\Live2D-MultMasked.shader" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\config\config.txt" />
+     <None Include="Assets\JOKER_GAME\live2D\Resources\Resources\shader\merged\Live2D-PremultipliedAlpha.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -130,6 +143,9 @@
  </Reference>
  <Reference Include="NCalc">
  <HintPath>C:/Users/小野寺知也/Desktop/AbyssProject/TomoyaOnodera/Oceans Savior/Assets/Plugins/JOKER/NCalc.dll</HintPath>
+ </Reference>
+ <Reference Include="Live2DUnity">
+ <HintPath>C:/Users/小野寺知也/Desktop/AbyssProject/TomoyaOnodera/Oceans Savior/Assets/JOKER_GAME/live2D/Resources/Live2DUnity.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
