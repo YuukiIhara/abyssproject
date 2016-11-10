@@ -45,8 +45,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Crosshair.cs" />
+     <Compile Include="Assets\Scripts\Explosion.cs" />
      <Compile Include="Assets\Scripts\GyroRotate.cs" />
+     <Compile Include="Assets\Scripts\Invisible.cs" />
+     <Compile Include="Assets\Scripts\LoopPath.cs" />
      <Compile Include="Assets\Scripts\Path1.cs" />
+     <Compile Include="Assets\Scripts\Path2.cs" />
+     <Compile Include="Assets\Scripts\Path3.cs" />
+     <Compile Include="Assets\Scripts\TapCount.cs" />
+     <Compile Include="Assets\Scripts\Underwater.cs" />
      <Compile Include="Assets\Scripts\iTweenPath.cs" />
      <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
  <Reference Include="UnityEngine.UI">
