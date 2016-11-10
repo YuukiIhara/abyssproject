@@ -4,7 +4,7 @@ public class GyroRotate : MonoBehaviour
 {
 	public GameObject EffectPrefab;
 	public Vector3 EffectRotation;
-
+	public float AddSpeed;
 
 	public float MaxSpeed;
     float yRotation; float xRotation;
@@ -41,12 +41,6 @@ public class GyroRotate : MonoBehaviour
 
     }
 
-	// スピードの増加
-	void AddSpeed()
-	{
-		MaxSpeed += 1.3f;
-	}
-
 	// あたり判定
 	void OnCollisionEnter(Collision other)
 	{
@@ -54,7 +48,7 @@ public class GyroRotate : MonoBehaviour
 		if(other.gameObject.tag == "ExtraItem")
 		{
 			// プレイヤーのスピードアップ
-			AddSpeed();
+			MaxSpeed += AddSpeed;
 
 			// オブジェクトを削除
 			Destroy(other.gameObject);
@@ -78,7 +72,7 @@ public class GyroRotate : MonoBehaviour
 			Destroy (this.gameObject.GetComponent<Rigidbody>());
 
 			// 上軸に移動量を加える
-			Speed_Y = 0.15f;
+			Speed_Y = 0.2f;
 			MaxSpeed += 25.0f;
 			vec = transform.localEulerAngles;
 			vec = new Vector3 (Mathf.Sin(vec.y*(Mathf.PI/180.0f))/100.0f*MaxSpeed,Speed_Y,Mathf.Cos(vec.y*(Mathf.PI/180.0f))/100.0f*MaxSpeed);
