@@ -15,7 +15,7 @@ public class GyroRotate : MonoBehaviour
 
 	public GameObject mainCamera;
 	public GameObject subCamera;
-
+	/*
     void Start()
     {
 		// ジェイロ機能を使用する
@@ -82,5 +82,5 @@ public class GyroRotate : MonoBehaviour
 			mainCamera.SetActive(false);
 			subCamera.SetActive (true);
 		}
-	}
+	}*/
 }
