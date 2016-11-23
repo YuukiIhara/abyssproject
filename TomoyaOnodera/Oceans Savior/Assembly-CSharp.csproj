@@ -138,14 +138,14 @@
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
+ <Reference Include="Live2DUnity">
+ <HintPath>C:/Users/小野寺知也/Desktop/AbyssProject/TomoyaOnodera/Oceans Savior/Assets/JOKER_GAME/live2D/Resources/Live2DUnity.dll</HintPath>
+ </Reference>
  <Reference Include="LitJson">
  <HintPath>C:/Users/小野寺知也/Desktop/AbyssProject/TomoyaOnodera/Oceans Savior/Assets/Plugins/JOKER/LitJson.dll</HintPath>
  </Reference>
  <Reference Include="NCalc">
  <HintPath>C:/Users/小野寺知也/Desktop/AbyssProject/TomoyaOnodera/Oceans Savior/Assets/Plugins/JOKER/NCalc.dll</HintPath>
- </Reference>
- <Reference Include="Live2DUnity">
- <HintPath>C:/Users/小野寺知也/Desktop/AbyssProject/TomoyaOnodera/Oceans Savior/Assets/JOKER_GAME/live2D/Resources/Live2DUnity.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
