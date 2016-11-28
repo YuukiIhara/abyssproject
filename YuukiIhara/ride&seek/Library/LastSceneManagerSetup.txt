@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/terrainTest.unity
+- path: Assets/Scenes/mayaTest.unity
   isLoaded: 1
   isActive: 1
