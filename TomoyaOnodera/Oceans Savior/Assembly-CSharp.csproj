@@ -45,13 +45,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Alpha.cs" />
      <Compile Include="Assets\Scripts\AutoDestroyEffect.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\Gyro.cs" />
      <Compile Include="Assets\Scripts\GyroRotate.cs" />
      <Compile Include="Assets\Scripts\KabeTest.cs" />
      <Compile Include="Assets\Scripts\MoveForPlayer.cs" />
-     <Compile Include="Assets\Scripts\SerifControl.cs" />
+     <Compile Include="Assets\Scripts\NameController.cs" />
+     <Compile Include="Assets\Scripts\ScriptController.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
