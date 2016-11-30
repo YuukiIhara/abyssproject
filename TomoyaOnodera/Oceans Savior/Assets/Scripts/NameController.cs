@@ -11,7 +11,6 @@ public class NameController : MonoBehaviour {
 
 	void Start()
 	{
-		SetNextLine();
 	}
 
 	void Update () 
@@ -19,9 +18,15 @@ public class NameController : MonoBehaviour {
 		uiText.text = currentText.Substring(0, currentText.Length);
 	}
 
-	void SetNextLine()
+	public void SetNextLine(int i)
 	{
 		// 次の文字列に切り替え
-		currentText = scenarios[currentLine];
+		currentText = scenarios[i];
+	}
+
+	public void Unload()
+	{
+		// 前回のテキストを消す
+		uiText.text = currentText = "";
 	}
 }
