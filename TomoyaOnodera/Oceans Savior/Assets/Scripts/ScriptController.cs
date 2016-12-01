@@ -29,7 +29,7 @@ public class ScriptController : MonoBehaviour {
 		// 前回の名前を消す
 		GameObject.Find ("NameController").GetComponent<NameController> ().Unload();
 		// シナリオのフラグを設定
-		GameObject.Find ("ScenarioScene").GetComponent<ScenarioScene> ().SetScenarioFlag (true);
+		GameObject.Find ("ScenarioSystem").GetComponent<ScenarioSystem> ().SetScenarioFlag (true);
 	}
 
 	// 文字の表示が完了しているかどうか
@@ -81,7 +81,7 @@ public class ScriptController : MonoBehaviour {
 		// シナリオ再生のフラグを切る
 		if(currentLine == scenarios.Length)
 		{
-			GameObject.Find ("ScenarioScene").GetComponent<ScenarioScene> ().SetScenarioFlag (false);
+			GameObject.Find ("ScenarioSystem").GetComponent<ScenarioSystem> ().SetScenarioFlag (false);
 			// オブジェクトの破壊
 			Destroy(this.gameObject);
 		}

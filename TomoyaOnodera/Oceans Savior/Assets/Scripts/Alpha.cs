@@ -4,7 +4,7 @@ using UnityEngine.UI; // uGUIの機能を使うお約束
 
 public class Alpha : MonoBehaviour {
 
-	// 減算するα値の設定
+	// α値の設定
 	float fAlpha;
 	// レンダラーの宣言
 	new CanvasRenderer renderer;
@@ -23,7 +23,7 @@ public class Alpha : MonoBehaviour {
 	void Update ()
 	{
 		// シナリオのフラグがtrueならスプライトを表示
-		if(GameObject.Find("ScenarioScene").GetComponent<ScenarioScene>().GetScenarioFlag() == true)
+		if(GameObject.Find("ScenarioSystem").GetComponent<ScenarioSystem>().GetScenarioFlag() == true)
 		{
 			if(fAlpha < 1.0f)
 			{
@@ -32,7 +32,7 @@ public class Alpha : MonoBehaviour {
 			}
 		}
 		// シナリオのフラグがfalseならスプライトを非表示
-		if(GameObject.Find("ScenarioScene").GetComponent<ScenarioScene>().GetScenarioFlag() == false)
+		if(GameObject.Find("ScenarioSystem").GetComponent<ScenarioSystem>().GetScenarioFlag() == false)
 		{
 			if(fAlpha > 0.0f)
 			{

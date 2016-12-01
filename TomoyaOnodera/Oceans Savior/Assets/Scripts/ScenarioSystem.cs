@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ScenarioScene : MonoBehaviour {
+public class ScenarioSystem : MonoBehaviour {
 
 	// シナリオの再生フラグ
 	bool ScenarioFlag = true;
