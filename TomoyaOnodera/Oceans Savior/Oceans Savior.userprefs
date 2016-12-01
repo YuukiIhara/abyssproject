@@ -2,10 +2,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ScriptController.cs">
     <Files>
-      <File FileName="Assets\Scripts\ScenarioScene.cs" Line="26" Column="17" />
-      <File FileName="Assets\Scripts\Alpha.cs" Line="20" Column="3" />
-      <File FileName="Assets\Scripts\ScriptController.cs" Line="92" Column="20" />
-      <File FileName="Assets\Scripts\NameController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ScriptController.cs" Line="29" Column="14" />
+      <File FileName="Assets\Scripts\NameController.cs" Line="28" Column="3" />
+      <File FileName="Assets\Scripts\Alpha.cs" Line="15" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
