@@ -8,22 +8,21 @@ public class TapCount : MonoBehaviour {
     // Update is called once per frame
     void OnGUI()
     {
-        GUILayout.Label("Tap = " + tap);
+        //GUILayout.Label("Tap = " + tap);
     }
     void Update () {
         
         if (gameObject.transform.position.z > 89)
         {
-			if (Input.touchCount > 0 && tap<20) {
+			if (Input.touchCount > 0 && tap<5) {
 
-		
 				if(Input.GetTouch(0).phase == TouchPhase.Began){
 
 					tap++;
 				}
 			}
 
-            if (tap == 20)
+            if (tap == 5)
             {
                 tapped = true;
             }
