@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{0F2C648E-297F-B864-D342-08D51EB93871}") = "スイスイと私の海物語", "Assembly-CSharp-firstpass.csproj", "{BC605689-66CE-168E-A9FE-6E5F2BDC4372}"
+EndProject
+Project("{0F2C648E-297F-B864-D342-08D51EB93871}") = "スイスイと私の海物語", "Assembly-CSharp.csproj", "{BC0C67BD-905E-BBA3-6D2E-65DDE1B85EDA}"
+EndProject
+Project("{0F2C648E-297F-B864-D342-08D51EB93871}") = "スイスイと私の海物語", "Assembly-UnityScript.unityproj", "{7DC6C618-DB45-8DBA-9120-A3CD8232647D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC605689-66CE-168E-A9FE-6E5F2BDC4372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC605689-66CE-168E-A9FE-6E5F2BDC4372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC605689-66CE-168E-A9FE-6E5F2BDC4372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC605689-66CE-168E-A9FE-6E5F2BDC4372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0C67BD-905E-BBA3-6D2E-65DDE1B85EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0C67BD-905E-BBA3-6D2E-65DDE1B85EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0C67BD-905E-BBA3-6D2E-65DDE1B85EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0C67BD-905E-BBA3-6D2E-65DDE1B85EDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DC6C618-DB45-8DBA-9120-A3CD8232647D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DC6C618-DB45-8DBA-9120-A3CD8232647D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DC6C618-DB45-8DBA-9120-A3CD8232647D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DC6C618-DB45-8DBA-9120-A3CD8232647D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
