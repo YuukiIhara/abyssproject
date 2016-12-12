@@ -45,11 +45,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Paths\Path1.cs" />
      <Compile Include="Assets\Scripts\graphics\SurroundClouds.cs" />
      <Compile Include="Assets\Scripts\graphics\Underwater.cs" />
      <Compile Include="Assets\Scripts\graphics\UnderwaterEffect.cs" />
      <Compile Include="Assets\Scripts\graphics\UnderwaterFog.cs" />
      <Compile Include="Assets\Scripts\graphics\WaterMirrorReflection.cs" />
+     <Compile Include="Assets\Scripts\iTweenPath\iTweenPath.cs" />
      <Compile Include="Assets\Scripts\misc\AnimatedProjector.cs" />
      <None Include="Assets\Shaders\SunRay.shader" />
      <None Include="Assets\Shaders\Underwater.shader" />
@@ -70,6 +72,10 @@
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{BC605689-66CE-168E-A9FE-6E5F2BDC4372}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
