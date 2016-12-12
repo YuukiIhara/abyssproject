@@ -1,0 +1,2 @@
+C:\Users\tero.maenranta\Desktop\Unity\スイスイと私の海物語\スイスイと私の海物語\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\tero.maenranta\Desktop\Backup\スイスイと私の海物語\スイスイと私の海物語\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache

@@ -7,7 +7,7 @@ public class UnderwaterFog : MonoBehaviour {
 
 	//Define variable
 	public int underwaterLevel = 7;
-	public bool cave = false;
+
 	//The scene's default fog settings
 	private bool defaultFog = RenderSettings.fog;
 	private Color defaultFogColor = RenderSettings.fogColor;
@@ -22,7 +22,7 @@ public class UnderwaterFog : MonoBehaviour {
 
 	void Update () {
 		
-		if (transform.position.y < underwaterLevel && cave == false) {
+		if (transform.position.y < underwaterLevel) {
 				
 				RenderSettings.fog = true;
 				RenderSettings.fogColor = new Color (0, 0.4f, 0.7f, 0.6f);
