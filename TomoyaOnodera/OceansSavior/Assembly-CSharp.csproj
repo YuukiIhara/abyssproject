@@ -45,15 +45,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Alpha.cs" />
-     <Compile Include="Assets\Scripts\MeterColor.cs" />
-     <Compile Include="Assets\Scripts\MeterController.cs" />
-     <Compile Include="Assets\Scripts\NameController.cs" />
-     <Compile Include="Assets\Scripts\ScenarioSystem.cs" />
-     <Compile Include="Assets\Scripts\ScopeColor.cs" />
-     <Compile Include="Assets\Scripts\ScoreAlpha.cs" />
-     <Compile Include="Assets\Scripts\ScoreManager.cs" />
-     <Compile Include="Assets\Scripts\ScriptController.cs" />
+     <Compile Include="Assets\uGui\Scripts\Alpha.cs" />
+     <Compile Include="Assets\uGui\Scripts\MeterColor.cs" />
+     <Compile Include="Assets\uGui\Scripts\MeterController.cs" />
+     <Compile Include="Assets\uGui\Scripts\NameController.cs" />
+     <Compile Include="Assets\uGui\Scripts\ScenarioSystem.cs" />
+     <Compile Include="Assets\uGui\Scripts\ScopeColor.cs" />
+     <Compile Include="Assets\uGui\Scripts\ScoreAlpha.cs" />
+     <Compile Include="Assets\uGui\Scripts\ScoreManager.cs" />
+     <Compile Include="Assets\uGui\Scripts\ScriptController.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
