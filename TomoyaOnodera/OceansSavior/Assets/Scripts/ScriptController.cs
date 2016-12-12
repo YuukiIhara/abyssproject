@@ -53,7 +53,7 @@ public class ScriptController : MonoBehaviour {
 			// 文字の表示が完了してるならクリック時に次の行を表示する
 			if( IsCompleteDisplayText )
 			{
-				if(currentLine <= scenarios.Length && Input.GetMouseButtonDown(0))
+				if(currentLine <= scenarios.Length && Input.GetButtonDown("Fire1"))
 				{
 					SetNextLine();
 				}
@@ -61,7 +61,7 @@ public class ScriptController : MonoBehaviour {
 			else
 			{
 				// 完了してないなら文字をすべて表示する
-				if(Input.GetMouseButtonDown(0))
+				if(Input.GetButtonDown("Fire1"))
 				{
 					timeUntilDisplay = 0;
 				}

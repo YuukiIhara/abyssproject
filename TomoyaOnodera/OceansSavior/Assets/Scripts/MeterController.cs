@@ -76,9 +76,9 @@ public class MeterController : MonoBehaviour {
 		return bHit;
 	}
 	// 当たり安定の設定とオブジェクトが壊れたかの判定を受け渡す
-	public bool SetHit()
+	public bool SetHit(bool hit)
 	{
-		bHit = false;
+		bHit = hit;
 		return bBreak;
 	}
 
