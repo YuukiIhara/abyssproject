@@ -8,6 +8,6 @@ public class Path1 : MonoBehaviour
 
     void Start()
     {
-           iTween.MoveTo(gameObject, iTween.Hash("path", iTweenPath.GetPath("Path1"), "time", 15, "easetype", iTween.EaseType.linear));
+		iTween.MoveTo(gameObject, iTween.Hash("path", iTweenPath.GetPath("Path1"), "time", 15, "orienttopath", true,"easetype", iTween.EaseType.linear));
     }
 }

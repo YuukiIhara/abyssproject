@@ -11,7 +11,7 @@ public class Path2 : MonoBehaviour {
         {
             if (!once)
             {
-                iTween.MoveTo(gameObject, iTween.Hash("path", iTweenPath.GetPath("Path2"), "time", 5, "easetype", iTween.EaseType.linear));
+				iTween.MoveTo(gameObject, iTween.Hash("path", iTweenPath.GetPath("Path2"), "time", 5, "orienttopath", true,"easetype", iTween.EaseType.linear));
                 once = true;
             }
         }
