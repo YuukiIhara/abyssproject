@@ -45,10 +45,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Bloom.cs" />
+     <Compile Include="Assets\GlobalFog\Effects\ImageEffects\Scripts\GlobalFogExtended.cs" />
+     <Compile Include="Assets\Gravity.cs" />
+     <Compile Include="Assets\Path3Turtle.cs" />
      <Compile Include="Assets\Scripts\BreakRock.cs" />
      <Compile Include="Assets\Scripts\Gyro\Aim.cs" />
      <Compile Include="Assets\Scripts\Gyro\Crosshair.cs" />
      <Compile Include="Assets\Scripts\Gyro\GyroRotate.cs" />
+     <Compile Include="Assets\Scripts\MoveShark.cs" />
      <Compile Include="Assets\Scripts\Paths\Path1.cs" />
      <Compile Include="Assets\Scripts\Paths\Path1Turtle.cs" />
      <Compile Include="Assets\Scripts\Paths\Path2Turtle.cs" />
@@ -65,6 +70,7 @@
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Shaders\WaterShader_2.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\GlobalFog\Effects\ImageEffects\Shaders\GlobalFogExtended.shader" />
      <None Include="Assets\Shaders\ProjectorAdd.shader" />
      <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
