@@ -9,6 +9,8 @@ public class UnderwaterFog : MonoBehaviour {
 
 	public int underwaterLevel = 7;
 	//The scene's default fog settings
+	private bool lowfog;
+	private bool highfog;
 	private bool defaultFog;
 	private Color defaultFogColor;
 	private float defaultFogDensity;
@@ -18,10 +20,13 @@ public class UnderwaterFog : MonoBehaviour {
 
 	void Start () {
 		//Set the background color
+		lowfog = false;
+		highfog = false;
 		defaultFog = RenderSettings.fog;
 		defaultFogColor = RenderSettings.fogColor;
 		defaultFogDensity = RenderSettings.fogDensity;
 		defaultSkybox = RenderSettings.skybox;
+		RenderSettings.fogDensity = 0.04f;
 		RenderSettings.fogStartDistance = 1.0f;
 		camera = GetComponent<Camera>();
 		camera.backgroundColor = new Color (0.1f, 0.25f, 0.42f, 1);
@@ -31,21 +36,32 @@ public class UnderwaterFog : MonoBehaviour {
 		
 		if (transform.position.y < underwaterLevel) {
 				
-				RenderSettings.fog = true;
-				RenderSettings.fogColor = new Color (0.1f, 0.25f, 0.42f, 0.6f);
-				RenderSettings.fogDensity = 0.04f;
-				RenderSettings.skybox = noSkybox;
-			if (GameObject.Find ("Turtle").transform.position.z < 1) {
-				RenderSettings.fogDensity = 0.0005f;
+			RenderSettings.fog = true;
+			RenderSettings.fogColor = new Color (0.1f, 0.25f, 0.42f, 0.6f);
+			RenderSettings.skybox = noSkybox;
+			if (GameObject.Find ("Turtle").transform.position.z < 50 && !lowfog) {
+				FogDown ();
 			}
-			
-			} else {
-				RenderSettings.fog = defaultFog;
-				RenderSettings.fogColor = defaultFogColor;
-				RenderSettings.fogDensity = defaultFogDensity;
-				RenderSettings.skybox = defaultSkybox;
+			if (GameObject.Find ("Turtle").transform.position.z < -60 && lowfog) {
+				FogUp ();
 			}
+		}
+	}
+	void FogDown(){
+		if (!lowfog) {
+			RenderSettings.fogDensity -= 0.00015f;
+			if (RenderSettings.fogDensity <= 0.0006f) {
+				lowfog = true;
+			}
+		}
 
-
+	}
+	void FogUp(){
+		if (!highfog) {
+			RenderSettings.fogDensity += 0.00005f;
+			if (RenderSettings.fogDensity >= 0.01f) {
+				highfog = true;
+			}
+		}
 	}
 }
