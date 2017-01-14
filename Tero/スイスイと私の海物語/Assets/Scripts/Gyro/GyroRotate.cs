@@ -10,8 +10,8 @@ public class GyroRotate : MonoBehaviour
 
 	void Update()
 	{
-		yRotation += -Input.gyro.rotationRateUnbiased.y; 
-		xRotation += -Input.gyro.rotationRateUnbiased.x;
+		yRotation += -Input.gyro.rotationRateUnbiased.y*2; 
+		xRotation += -Input.gyro.rotationRateUnbiased.x*2;
 
 		//transform.eulerAngles = new Vector3(xRotation, yRotation, 0);
 		transform.localEulerAngles = new Vector3(xRotation, yRotation, 0);
