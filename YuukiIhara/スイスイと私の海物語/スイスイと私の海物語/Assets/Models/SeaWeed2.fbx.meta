@@ -1,32 +1,26 @@
 fileFormatVersion: 2
-guid: 4637463a362d6e24388f3f6face67089
-timeCreated: 1483348237
+guid: dc2b86e06e21a9843b739588ddc1d1d8
+timeCreated: 1481610136
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: joint1
-    100002: joint2
-    100004: joint3
-    100006: joint4
-    100008: joint5
-    100010: joint6
-    100012: joint7
-    100014: SeaWeed
-    100016: //RootNode
-    400000: joint1
-    400002: joint2
-    400004: joint3
-    400006: joint4
-    400008: joint5
-    400010: joint6
-    400012: joint7
-    400014: SeaWeed
-    400016: //RootNode
-    4300000: SeaWeed
-    7400000: SeaWeed2
+    100000: aquatic11
+    100002: Camera
+    100004: Lamp
+    100006: //RootNode
+    400000: aquatic11
+    400002: Camera
+    400004: Lamp
+    400006: //RootNode
+    2300000: aquatic11
+    3300000: aquatic11
+    4300000: aquatic11
+    7400000: aquatic11|aq13.obj_7Action
+    7400002: aquatic11|aquatic11Action
+    7400004: aquatic11|aquatic11Action0
     9500000: //RootNode
-    13700000: SeaWeed
+    11100000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
@@ -45,22 +39,22 @@ ModelImporter:
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
-    animationWrapMode: 0
+    animationWrapMode: 2
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: SeaWeed2
-      takeName: Take 001
-      firstFrame: 1
-      lastFrame: 240
-      wrapMode: 0
+      name: aquatic11|aquatic11Action0
+      takeName: aquatic11|aquatic11Action
+      firstFrame: 0
+      lastFrame: 79
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
-      loop: 0
+      loop: 1
       hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 1
+      loopTime: 0
+      loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -75,25 +69,51 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: joint1
+      - path: aquatic11
         weight: 1
-      - path: joint1/joint2
+      - path: Camera
         weight: 1
-      - path: joint1/joint2/joint3
-        weight: 1
-      - path: joint1/joint2/joint3/joint4
-        weight: 1
-      - path: joint1/joint2/joint3/joint4/joint5
-        weight: 1
-      - path: joint1/joint2/joint3/joint4/joint5/joint6
-        weight: 1
-      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7
-        weight: 1
-      - path: SeaWeed
+      - path: Lamp
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aquatic11|aquatic11Action
+      takeName: aquatic11|aquatic11Action
+      firstFrame: 0
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: aquatic11
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -131,7 +151,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
