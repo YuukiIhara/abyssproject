@@ -1,0 +1,263 @@
+fileFormatVersion: 2
+guid: f70fcc8b4446b674799320fd4c2c524f
+timeCreated: 1484345206
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: joint1
+    100002: joint2
+    100004: joint3
+    100006: joint4
+    100008: //RootNode
+    100010: SeaAnemone
+    100012: SeaAnemone 1
+    100014: SeaAnemone1
+    100016: SeaAnemone10
+    100018: SeaAnemone11
+    100020: SeaAnemone12
+    100022: SeaAnemone14
+    100024: SeaAnemone15
+    100026: SeaAnemone16
+    100028: SeaAnemone17
+    100030: SeaAnemone2
+    100032: SeaAnemone3
+    100034: SeaAnemone4
+    100036: SeaAnemone5
+    100038: SeaAnemone6
+    100040: SeaAnemone7
+    100042: SeaAnemone8
+    100044: SeaAnemone9
+    100046: transform1
+    100048: transform10
+    100050: transform11
+    100052: transform12
+    100054: transform13
+    100056: transform14
+    100058: transform15
+    100060: transform16
+    100062: transform17
+    100064: transform2
+    100066: transform3
+    100068: transform4
+    100070: transform5
+    100072: transform6
+    100074: transform7
+    100076: transform8
+    100078: transform9
+    400000: joint1
+    400002: joint2
+    400004: joint3
+    400006: joint4
+    400008: //RootNode
+    400010: SeaAnemone
+    400012: SeaAnemone 1
+    400014: SeaAnemone1
+    400016: SeaAnemone10
+    400018: SeaAnemone11
+    400020: SeaAnemone12
+    400022: SeaAnemone14
+    400024: SeaAnemone15
+    400026: SeaAnemone16
+    400028: SeaAnemone17
+    400030: SeaAnemone2
+    400032: SeaAnemone3
+    400034: SeaAnemone4
+    400036: SeaAnemone5
+    400038: SeaAnemone6
+    400040: SeaAnemone7
+    400042: SeaAnemone8
+    400044: SeaAnemone9
+    400046: transform1
+    400048: transform10
+    400050: transform11
+    400052: transform12
+    400054: transform13
+    400056: transform14
+    400058: transform15
+    400060: transform16
+    400062: transform17
+    400064: transform2
+    400066: transform3
+    400068: transform4
+    400070: transform5
+    400072: transform6
+    400074: transform7
+    400076: transform8
+    400078: transform9
+    4300000: SeaAnemone
+    7400000: SeaAnemone
+    9500000: //RootNode
+    13700000: SeaAnemone
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: SeaAnemone
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: SeaAnemone
+        weight: 1
+      - path: SeaAnemone/SeaAnemone 1
+        weight: 1
+      - path: SeaAnemone/SeaAnemone 1/transform17
+        weight: 1
+      - path: SeaAnemone/SeaAnemone1
+        weight: 1
+      - path: SeaAnemone/SeaAnemone1/transform16
+        weight: 1
+      - path: SeaAnemone/SeaAnemone2
+        weight: 1
+      - path: SeaAnemone/SeaAnemone2/transform15
+        weight: 1
+      - path: SeaAnemone/SeaAnemone3
+        weight: 1
+      - path: SeaAnemone/SeaAnemone3/transform14
+        weight: 1
+      - path: SeaAnemone/SeaAnemone4
+        weight: 1
+      - path: SeaAnemone/SeaAnemone4/transform13
+        weight: 1
+      - path: SeaAnemone/SeaAnemone5
+        weight: 1
+      - path: SeaAnemone/SeaAnemone5/transform12
+        weight: 1
+      - path: SeaAnemone/SeaAnemone6
+        weight: 1
+      - path: SeaAnemone/SeaAnemone6/transform11
+        weight: 1
+      - path: SeaAnemone/SeaAnemone7
+        weight: 1
+      - path: SeaAnemone/SeaAnemone7/transform10
+        weight: 1
+      - path: SeaAnemone/SeaAnemone8
+        weight: 1
+      - path: SeaAnemone/SeaAnemone8/transform9
+        weight: 1
+      - path: SeaAnemone/SeaAnemone9
+        weight: 1
+      - path: SeaAnemone/SeaAnemone9/transform8
+        weight: 1
+      - path: SeaAnemone/SeaAnemone10
+        weight: 1
+      - path: SeaAnemone/SeaAnemone10/transform7
+        weight: 1
+      - path: SeaAnemone/SeaAnemone11
+        weight: 1
+      - path: SeaAnemone/SeaAnemone11/transform6
+        weight: 1
+      - path: SeaAnemone/SeaAnemone12
+        weight: 1
+      - path: SeaAnemone/SeaAnemone12/transform5
+        weight: 1
+      - path: SeaAnemone/SeaAnemone14
+        weight: 1
+      - path: SeaAnemone/SeaAnemone14/transform4
+        weight: 1
+      - path: SeaAnemone/SeaAnemone15
+        weight: 1
+      - path: SeaAnemone/SeaAnemone15/transform3
+        weight: 1
+      - path: SeaAnemone/SeaAnemone16
+        weight: 1
+      - path: SeaAnemone/SeaAnemone16/transform2
+        weight: 1
+      - path: SeaAnemone/SeaAnemone17
+        weight: 1
+      - path: SeaAnemone/SeaAnemone17/transform1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
