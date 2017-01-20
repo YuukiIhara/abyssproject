@@ -50,7 +50,6 @@ public class ScriptController : MonoBehaviour {
 	void Update () 
 	{
 		if (Flag == false) {
-
 			// スプライトのα値が1なら処理をする
 			if (GameObject.Find ("Frame_txt").GetComponent<Alpha> ().GetAlpha () >= 1.0f) {
 				// 一度だけ処理される
@@ -82,7 +81,7 @@ public class ScriptController : MonoBehaviour {
 			// シナリオ終了時、一定時間後にオブジェクトを非表示
 			if (ScriptFlag == true) {
 				Cnt++;
-				if (Cnt > 80) {
+				if (Cnt > 60) {
 					// フラグ設定(他オブジェクトからはコレを参照)
 					Flag = true;
 			

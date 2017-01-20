@@ -9,7 +9,8 @@ public class Path1Turtle : MonoBehaviour
 
 	void Update()
 	{
-		if (GameObject.Find ("Camera Player").GetComponent<Aim> ().FirstCoral) {
+		//if (GameObject.Find ("Camera Player").GetComponent<Aim> ().FirstCoral) {
+		if (GameObject.Find ("Scenario1_01").GetComponent<ScriptController> ().Flag) {
 			CoralGet = true;
 		}
 		if (CoralGet) {

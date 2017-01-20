@@ -3,6 +3,7 @@ using System.Collections;
 
 public class MoveBreaker : MonoBehaviour {
 	public bool ByRock = false;
+	public GameObject Scenario3;
 	// Use this for initialization
 	void Start () {
 		
@@ -10,8 +11,13 @@ public class MoveBreaker : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (GameObject.Find ("Turtle").transform.position.z<23.5) {
-			ByRock = true;
+		if (GameObject.Find ("Turtle").transform.position.z < 23.5) {
+			Scenario3.SetActive (true);
+		}
+		if (GameObject.Find ("Scenario1_02").GetComponent<ScriptController> ().Flag){
+			//ByRock = true;
+			GameObject.Find ("Tap").GetComponent<TapManager> ().SetTapFlag(true);
+
 		}
 		if (ByRock) {
 			Vector3 position = this.transform.position;

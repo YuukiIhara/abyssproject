@@ -32,11 +32,11 @@ public class MeterController : MonoBehaviour {
 	void Update () 
 	{
 		// デバック用当たり判定
-		if (Input.GetKey (KeyCode.Return)) {
-			bHit = true;
-		} else {
-			//bHit = false;
-		}
+		//if (Input.GetKey (KeyCode.Return)) {
+		//	bHit = true;
+		//} else {
+		//	bHit = false;
+		//}
 
 		// 当たり処理
 		if (bHit == true && GameObject.Find ("Scope").GetComponent<ScopeColor> ().GetMoveFlag() == false)

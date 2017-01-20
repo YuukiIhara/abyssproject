@@ -45,18 +45,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GlobalFog\Effects\ImageEffects\Scripts\GlobalFogExtended.cs" />
-     <Compile Include="Assets\Scripts\BreakRock.cs" />
-     <Compile Include="Assets\Scripts\FishPath1.cs" />
-     <Compile Include="Assets\Scripts\Gravity.cs" />
+     <Compile Include="Assets\Scripts\DrawDistance.cs" />
      <Compile Include="Assets\Scripts\Gyro\Aim.cs" />
      <Compile Include="Assets\Scripts\Gyro\Crosshair.cs" />
      <Compile Include="Assets\Scripts\Gyro\GyroRotate.cs" />
-     <Compile Include="Assets\Scripts\MoveShark.cs" />
-     <Compile Include="Assets\Scripts\Path3Turtle.cs" />
-     <Compile Include="Assets\Scripts\Paths\Path1.cs" />
+     <Compile Include="Assets\Scripts\Paths\BossPath.cs" />
+     <Compile Include="Assets\Scripts\Paths\BossPathPlayer.cs" />
+     <Compile Include="Assets\Scripts\Paths\FishPath1.cs" />
+     <Compile Include="Assets\Scripts\Paths\FishPath2.cs" />
+     <Compile Include="Assets\Scripts\Paths\FishPath3.cs" />
+     <Compile Include="Assets\Scripts\Paths\FishPath4.cs" />
+     <Compile Include="Assets\Scripts\Paths\FishPath5.cs" />
      <Compile Include="Assets\Scripts\Paths\Path1Turtle.cs" />
      <Compile Include="Assets\Scripts\Paths\Path2Turtle.cs" />
+     <Compile Include="Assets\Scripts\Paths\Path3Turtle.cs" />
+     <Compile Include="Assets\Scripts\Paths\Path4Turtle.cs" />
+     <Compile Include="Assets\Scripts\RockDelete.cs" />
+     <Compile Include="Assets\Scripts\SharkCollision.cs" />
+     <Compile Include="Assets\Scripts\TurnAround.cs" />
      <Compile Include="Assets\Scripts\graphics\SurroundClouds.cs" />
      <Compile Include="Assets\Scripts\graphics\Underwater.cs" />
      <Compile Include="Assets\Scripts\graphics\UnderwaterEffect.cs" />
@@ -64,16 +70,31 @@
      <Compile Include="Assets\Scripts\graphics\WaterMirrorReflection.cs" />
      <Compile Include="Assets\Scripts\iTweenPath\iTweenPath.cs" />
      <Compile Include="Assets\Scripts\misc\AnimatedProjector.cs" />
+     <Compile Include="Assets\Scripts\misc\BreakRock.cs" />
+     <Compile Include="Assets\Scripts\misc\Gravity.cs" />
      <Compile Include="Assets\Scripts\misc\MoveBreaker.cs" />
+     <Compile Include="Assets\Scripts\misc\MoveShark.cs" />
      <Compile Include="Assets\uGui\Scripts\Alpha.cs" />
+     <Compile Include="Assets\uGui\Scripts\Energy.cs" />
+     <Compile Include="Assets\uGui\Scripts\EnergyController.cs" />
      <Compile Include="Assets\uGui\Scripts\EnergyTank.cs" />
+     <Compile Include="Assets\uGui\Scripts\EvaluationLavel.cs" />
      <Compile Include="Assets\uGui\Scripts\FadeManager.cs" />
+     <Compile Include="Assets\uGui\Scripts\Gyro.cs" />
      <Compile Include="Assets\uGui\Scripts\IntroPlayer.cs" />
      <Compile Include="Assets\uGui\Scripts\MeterColor.cs" />
      <Compile Include="Assets\uGui\Scripts\MeterController.cs" />
      <Compile Include="Assets\uGui\Scripts\NameController.cs" />
+     <Compile Include="Assets\uGui\Scripts\RateLavel.cs" />
+     <Compile Include="Assets\uGui\Scripts\RateTxtManager.cs" />
+     <Compile Include="Assets\uGui\Scripts\Rating.cs" />
+     <Compile Include="Assets\uGui\Scripts\RatingController.cs" />
+     <Compile Include="Assets\uGui\Scripts\RatingTxtManager.cs" />
      <Compile Include="Assets\uGui\Scripts\ResultEffectGenerator.cs" />
+     <Compile Include="Assets\uGui\Scripts\ResultEvaluation.cs" />
      <Compile Include="Assets\uGui\Scripts\ResultManager.cs" />
+     <Compile Include="Assets\uGui\Scripts\ResultRate.cs" />
+     <Compile Include="Assets\uGui\Scripts\ResultState.cs" />
      <Compile Include="Assets\uGui\Scripts\ResultText.cs" />
      <Compile Include="Assets\uGui\Scripts\ResultUI.cs" />
      <Compile Include="Assets\uGui\Scripts\ScenarioSystem.cs" />
@@ -82,6 +103,9 @@
      <Compile Include="Assets\uGui\Scripts\ScoreManager.cs" />
      <Compile Include="Assets\uGui\Scripts\ScriptController.cs" />
      <Compile Include="Assets\uGui\Scripts\TapManager.cs" />
+     <Compile Include="Assets\uGui\Scripts\TitleState.cs" />
+     <Compile Include="Assets\uGui\Scripts\TitleSystem.cs" />
+     <Compile Include="Assets\uGui\Scripts\UvAnimation.cs" />
      <None Include="Assets\Shaders\SunRay.shader" />
      <None Include="Assets\Standard Assets\Effects\AntiAliasing\FXAA\Resources\FXAA3.cginc" />
      <None Include="Assets\Standard Assets\Effects\MotionBlur\Resources\Reconstruction.cginc" />
@@ -102,7 +126,6 @@
      <None Include="Assets\Standard Assets\Effects\AmbientOcclusion\Resources\Composition.cginc" />
      <None Include="Assets\Standard Assets\Effects\Bloom\Resources\Bloom.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
-     <None Include="Assets\GlobalFog\Effects\ImageEffects\Shaders\GlobalFogExtended.shader" />
      <None Include="Assets\Standard Assets\Effects\AntiAliasing\SMAA\Resources\SMAA.cginc" />
      <None Include="Assets\Shaders\ProjectorAdd.shader" />
      <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
@@ -119,6 +142,7 @@
      <None Include="Assets\Standard Assets\Effects\LensAberrations\Resources\LensAberrations.shader" />
      <None Include="Assets\Standard Assets\Effects\TonemappingColorGrading\Resources\HistogramCompute.compute" />
      <None Include="Assets\Shaders\alpha_2sided.shader" />
+     <None Include="Assets\Shaders\DoubleSide.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

@@ -7,6 +7,7 @@ public class Aim : MonoBehaviour {
 	// Update is called once per frame
 
 	public GameObject Scenario1;
+	public GameObject Scenario2;
 
 		void Update(){
 		Ray ray = Camera.main.ScreenPointToRay (new Vector3 (Screen.width / 2, Screen.height / 2, 0));
@@ -15,11 +16,18 @@ public class Aim : MonoBehaviour {
 			
 			if (Physics.Raycast (ray, out hit, distance)) {
 				if (GameObject.Find ("Meter").GetComponent<MeterController> ().SetHit (hit.collider.tag == "FirstCoral")) {
-					FirstCoral = true;
-					if(hit.transform.gameObject.tag == "FirstCoral")Destroy (hit.transform.gameObject);
+					//FirstCoral = true;
+					Scenario2.SetActive (true);
+					if (hit.transform.gameObject.tag == "FirstCoral") {
+						Destroy (hit.transform.gameObject);
+						GameObject.Find ("ScoreManager").GetComponent<ScoreManager> ().AddScore(150);
+					}
 				}
 				if (FirstCoral && GameObject.Find ("Meter").GetComponent<MeterController> ().SetHit (hit.collider.tag == "Coral")) {
-					if(hit.transform.gameObject.tag == "Coral")Destroy (hit.transform.gameObject);
+					if (hit.transform.gameObject.tag == "Coral") {
+						Destroy (hit.transform.gameObject);
+						GameObject.Find ("ScoreManager").GetComponent<ScoreManager> ().AddScore(150);
+					}
 				}
 			}
 		}

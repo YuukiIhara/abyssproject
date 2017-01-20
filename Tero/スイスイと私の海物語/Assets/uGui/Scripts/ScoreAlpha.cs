@@ -22,18 +22,18 @@ public class ScoreAlpha : MonoBehaviour {
 
 	void Update ()
 	{
-		if(bAlphaFlag == true && fAlpha < 1.0f)
+		if(bAlphaFlag == true && fAlpha <= 1.0f)
 		{
 			
 			// Alpha値の更新
-			fAlpha += 0.02f;
+			fAlpha += 0.04f;
 			renderer.SetAlpha(fAlpha);
 		}
 		if(bAlphaFlag == false && fAlpha > 0.0f)
 		{
 
 			// Alpha値の更新
-			fAlpha -= 0.02f;
+			fAlpha -= 0.04f;
 			renderer.SetAlpha(fAlpha);
 		}
 	}
@@ -42,5 +42,13 @@ public class ScoreAlpha : MonoBehaviour {
 	public void SetAlpha(bool flag)
 	{
 		bAlphaFlag = flag;
+	}
+
+	// スコアのアルファ値初期化
+	public void InitAlpha(float alpha)
+	{
+		// Alpha値の更新
+		fAlpha = alpha;
+		renderer.SetAlpha(fAlpha);
 	}
 }

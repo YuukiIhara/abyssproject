@@ -37,6 +37,11 @@ public class ResultUI : MonoBehaviour {
 				Vector3 Addnum = new Vector3(0 ,Mathf.Sin(rot)*-7.5f,0);
 				transform.position += Addnum;
 			}
+			// エネルギの加算
+			if(TimeCnt > 60 && GameObject.Find ("Energy").GetComponent<Energy> ().GetEndFlag() == false)
+			{
+				GameObject.Find ("ScoreManager").GetComponent<ScoreManager> ().ResultScore();
+			}
 		}
 	}
 }

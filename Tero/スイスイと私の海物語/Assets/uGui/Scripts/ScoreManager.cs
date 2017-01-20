@@ -6,11 +6,12 @@ public class ScoreManager : MonoBehaviour {
 
 	const int	SCORE_DIGIT_MAX=4; 
 	const float LERPTIME_MAX=1.0f;
-	const float ADD_LERPTIME=0.1f;
+	float AddLEerptime=0.02f;
 	private int Score = 0;
 	public int DestScore;
 	private int FromScore=0;
 	private float LerpTime=0.0000f;
+
 	//private GameObject[] ScoreObject=new GameObject[SCORE_DIGIT_MAX];
 	//private SpriteRenderer[] ScoreRenderer=new SpriteRenderer[SCORE_DIGIT_MAX];
 	public GameObject[] ScoreRenderer;
@@ -18,6 +19,10 @@ public class ScoreManager : MonoBehaviour {
 	// Use this for initialization
 	// イメージの宣言
 	Image image;
+	// 1回だけ入るフラグ
+	bool bFlag = true;
+	// 取得したエネルギーの合計
+	int nMaxEnergy;
 
 	void Start ()
 	{
@@ -40,7 +45,7 @@ public class ScoreManager : MonoBehaviour {
 			float fFromScore=FromScore;
 			float fDestScore=DestScore;
 			fScore = Mathf.Lerp((float)fFromScore,(float)fDestScore,LerpTime);
-			LerpTime+=ADD_LERPTIME;
+			LerpTime+=AddLEerptime;
 			Score=(int)fScore;
 
 		}
@@ -87,6 +92,31 @@ public class ScoreManager : MonoBehaviour {
 	public int GetScore()
 	{
 		return Score;
+	}
+
+	// リザルト処理
+	public void ResultScore()
+	{
+		// 1回だけ入る処理
+		if (bFlag)
+		{
+			// 1回だけ入る処理
+			AddLEerptime = 0.004f;
+			nMaxEnergy = DestScore;
+			bFlag = false;
+
+			// スコアの減算
+			FromScore=DestScore;
+			DestScore -= DestScore;
+			LerpTime=0.0f;
+		}
+		// スコアの減算
+		//DestScore -= (int)((float)DestScore * LerpTime);
+		//FromScore = (int)((float)DestScore * LerpTime);
+
+		// エネルギーの加算
+		GameObject.Find ("Energy").GetComponent<Energy> ().ResultEnergy(nMaxEnergy);
+
 	}
 }
 

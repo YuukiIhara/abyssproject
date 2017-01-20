@@ -11,6 +11,8 @@ public class FadeManager : MonoBehaviour {
 	// フラグ
 	public bool bFadeFlag;
 	bool bFlag = false;
+	// フェードアウト終了のフラグ
+	bool FadeOutFlag = false;
 	// 透明度
 	float fAlpha;
 	// 色の設定
@@ -27,13 +29,13 @@ public class FadeManager : MonoBehaviour {
 		if (bFadeFlag == true) 
 		{
 			// 透明処理
-			fAlpha = 0.0f;
+			fAlpha = 0.000000f;
 			renderer.SetAlpha (fAlpha);
 		}
 		else
 		{
 			// 透明処理
-			fAlpha = 1.0f;
+			fAlpha = 1.000000f;
 			renderer.SetAlpha(fAlpha);
 		}
 		// カラーの設定
@@ -43,24 +45,44 @@ public class FadeManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{	
+		// テスト
+		if (Input.GetKey (KeyCode.V)) 
+		{
+			bFadeFlag = true;
+		}
+		if (Input.GetKey (KeyCode.B)) 
+		{
+			bFadeFlag = false;
+		}
 
 		// フェードアウト処理
-		if (bFadeFlag == true && fAlpha < 1.0f) {
+		if (bFadeFlag == true && fAlpha < 1.0f) 
+		{
 			// 透明処理
 			fAlpha += 0.01f;
 			renderer.SetAlpha (fAlpha);
-			// ゲーム中のフラグ
-			GameObject.Find("ScenarioSystem").GetComponent<ScenarioSystem>().SetScenarioFlag(false);
-			bFlag = false;
+			if(fAlpha >= 1.0f)
+			{
+				// フェードアウトフラグの設定
+				FadeOutFlag = true;
+				bFlag = false;
+				GameObject.Find ("ScenarioSystem").GetComponent<ScenarioSystem> ().SetScenarioFlag (false);
+			}
 		}
 		// フェードイン処理
-		else if (bFadeFlag == false && fAlpha > 0.0f) {
+		else if (bFadeFlag == false && fAlpha > 0.000000f)
+		{
 			// 透明処理
 			fAlpha -= 0.01f;
 			renderer.SetAlpha (fAlpha);
 			// ゲーム中のフラグ
 			GameObject.Find("ScenarioSystem").GetComponent<ScenarioSystem>().SetScenarioFlag(false);
-			bFlag = false;
+			// フェードアウトフラグの設定
+			FadeOutFlag = false;
+			if(fAlpha <= 0.000000f)
+			{
+				bFlag = false;
+			}
 		} 
 		else if(bFlag == false )
 		{
@@ -70,8 +92,21 @@ public class FadeManager : MonoBehaviour {
 		}
 	}
 
+	// ゲーム中のフラグ
 	public void SetFade(bool flag)
 	{
 		bFadeFlag = flag;
+	}
+
+	// フェードウトが終わったフラグ受け渡し
+	public bool GetFadeOutFlag()
+	{
+		return FadeOutFlag;
+	}
+
+	// アルファ値のフラグ受け渡し
+	public float GetAlpha()
+	{
+		return fAlpha;
 	}
 }

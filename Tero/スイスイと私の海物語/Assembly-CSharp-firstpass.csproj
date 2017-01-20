@@ -95,7 +95,6 @@
      <None Include="Assets\Standard Assets\Effects\AmbientOcclusion\Resources\Composition.cginc" />
      <None Include="Assets\Standard Assets\Effects\Bloom\Resources\Bloom.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
-     <None Include="Assets\GlobalFog\Effects\ImageEffects\Shaders\GlobalFogExtended.shader" />
      <None Include="Assets\Standard Assets\Effects\AntiAliasing\SMAA\Resources\SMAA.cginc" />
      <None Include="Assets\Shaders\ProjectorAdd.shader" />
      <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
@@ -112,6 +111,7 @@
      <None Include="Assets\Standard Assets\Effects\LensAberrations\Resources\LensAberrations.shader" />
      <None Include="Assets\Standard Assets\Effects\TonemappingColorGrading\Resources\HistogramCompute.compute" />
      <None Include="Assets\Shaders\alpha_2sided.shader" />
+     <None Include="Assets\Shaders\DoubleSide.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

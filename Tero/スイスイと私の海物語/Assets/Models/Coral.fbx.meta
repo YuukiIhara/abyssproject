@@ -14,8 +14,11 @@ ModelImporter:
     400004: Cylinder
     400006: Lamp
     2300000: Cylinder
+    2300002: //RootNode
     3300000: Cylinder
+    3300002: //RootNode
     4300000: Cylinder
+    4300002: Coral
   materials:
     importMaterials: 1
     materialName: 0

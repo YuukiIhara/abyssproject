@@ -45,6 +45,16 @@ public class UnderwaterFog : MonoBehaviour {
 			if (GameObject.Find ("Turtle").transform.position.z < -60 && lowfog) {
 				FogUp ();
 			}
+			if (GameObject.Find ("Turtle").transform.position.z < -1760) {
+				//RenderSettings.fogDensity = 0.0006f;
+				RenderSettings.fog = false;
+				RenderSettings.skybox = defaultSkybox;
+			}
+			if (GameObject.Find ("Turtle").transform.position.z < -2140) {
+				//RenderSettings.fogDensity = 0.0006f;
+				RenderSettings.fog = true;
+				RenderSettings.skybox = noSkybox;
+			}
 		}
 	}
 	void FogDown(){
@@ -59,7 +69,7 @@ public class UnderwaterFog : MonoBehaviour {
 	void FogUp(){
 		if (!highfog) {
 			RenderSettings.fogDensity += 0.00005f;
-			if (RenderSettings.fogDensity >= 0.01f) {
+			if (RenderSettings.fogDensity >= 0.005f) {
 				highfog = true;
 			}
 		}

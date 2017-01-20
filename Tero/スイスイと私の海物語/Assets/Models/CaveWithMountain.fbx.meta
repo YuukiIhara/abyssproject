@@ -15,6 +15,8 @@ ModelImporter:
     100014: Cave_MeshPart6
     100016: //RootNode
     100018: Mountain
+    100020: Cave.001
+    100022: Cave.002
     400000: Cave
     400002: Cave_MeshPart0
     400004: Cave_MeshPart1
@@ -25,6 +27,8 @@ ModelImporter:
     400014: Cave_MeshPart6
     400016: //RootNode
     400018: Mountain
+    400020: Cave.001
+    400022: Cave.002
     2300000: Cave_MeshPart0
     2300002: Cave_MeshPart1
     2300004: Cave_MeshPart2
@@ -33,6 +37,9 @@ ModelImporter:
     2300010: Cave_MeshPart5
     2300012: Cave_MeshPart6
     2300014: Mountain
+    2300016: Cave
+    2300018: Cave.001
+    2300020: Cave.002
     3300000: Cave_MeshPart0
     3300002: Cave_MeshPart1
     3300004: Cave_MeshPart2
@@ -41,6 +48,9 @@ ModelImporter:
     3300010: Cave_MeshPart5
     3300012: Cave_MeshPart6
     3300014: Mountain
+    3300016: Cave
+    3300018: Cave.001
+    3300020: Cave.002
     4300000: Mountain
     4300002: Cave_MeshPart0
     4300004: Cave_MeshPart1
@@ -49,6 +59,9 @@ ModelImporter:
     4300010: Cave_MeshPart4
     4300012: Cave_MeshPart5
     4300014: Cave_MeshPart6
+    4300016: Cave.002
+    4300018: Cave.001
+    4300020: Cave
   materials:
     importMaterials: 1
     materialName: 0

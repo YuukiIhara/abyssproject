@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement; 
 
 public class IntroPlayer : MonoBehaviour {
 
@@ -13,8 +14,10 @@ public class IntroPlayer : MonoBehaviour {
 	int PlayerMoveCount = 0;
 	//スイスイのオブジェクト取得
 	public GameObject suisui;
+	// シナリオブジェクト取得
 	public GameObject txt;
-
+	// スイスイの回転角
+	float rotY;
 	// Use this for initialization
 	void Start () 
 	{
@@ -25,6 +28,9 @@ public class IntroPlayer : MonoBehaviour {
 		PlayerMove = new Vector3(suisui.transform.position.x - gameObject.GetComponent<Transform>().position.x,0,suisui.transform.position.z-1.45f - gameObject.GetComponent<Transform>().position.z);
 		float fLengse = Mathf.Sqrt (PlayerMove.x*PlayerMove.x + PlayerMove.z*PlayerMove.z);
 		PlayerMove = new Vector3 (PlayerMove.x/fLengse/120,0,PlayerMove.z/fLengse/120);
+
+		rotY = 110.0f;
+		suisui.transform.rotation = Quaternion.Euler(0,rotY,0);
 	}
 	
 	// Update is called once per frame
@@ -43,6 +49,19 @@ public class IntroPlayer : MonoBehaviour {
 		if(bPlayerFlag == true)
 		{
 			PlayerMoveCount++;
+			//Vector3 ani = new Vector3 (0.0f,10.0f,0.0f);
+			//suisui.transform.rotation(ani.x,ani.y,ani.z);
+
+			//var rot = suisui.transform.rotation;
+			//rot.y += 0.2f;
+			//suisui.transform.rotation = rot;
+
+			// スイスイの回転開始
+			if(PlayerMoveCount > 0 && PlayerMoveCount <= 120)
+			{
+				rotY += 1.35f;
+				suisui.transform.rotation = Quaternion.Euler(0,rotY,0);
+			}
 
 			// スイスイまで近づく処理
 			if(PlayerMoveCount < 380)
@@ -55,7 +74,7 @@ public class IntroPlayer : MonoBehaviour {
 				PlayerRot += Mathf.PI*2 / 30;
 				// プレイヤーのスイスイ迄の移動量を設定
 				PlayerMove = new Vector3(suisui.transform.position.x - gameObject.GetComponent<Transform>().position.x,Mathf.Sin(PlayerRot)/20.0f,suisui.transform.position.z - gameObject.GetComponent<Transform>().position.z);
-				Player.position += new Vector3 (PlayerMove.x*0.05f,PlayerMove.y,PlayerMove.z*0.05f);
+				Player.position += new Vector3 (PlayerMove.x*0.05f,PlayerMove.y,PlayerMove.z*0.1f);
 			}
 			if (PlayerMoveCount == 450) 
 			{
@@ -82,6 +101,11 @@ public class IntroPlayer : MonoBehaviour {
 			{
 				// フェードアウトのフラグを立てる
 				GameObject.Find ("Fade").GetComponent<FadeManager> ().SetFade(true);
+			}
+			if (PlayerMoveCount == 750)
+			{
+				// ゲーム画面に繊維
+				SceneManager.LoadScene("main");
 			}
 		}
 	}

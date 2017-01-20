@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.UI; // uGUIの機能を使うお約束
+using UnityEngine.UI;
 
 public class NameController : MonoBehaviour {
 
