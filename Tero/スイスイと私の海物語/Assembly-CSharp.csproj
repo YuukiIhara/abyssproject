@@ -45,6 +45,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CoralEffect\Scripts\Charge_011DualRibbon.cs" />
+     <Compile Include="Assets\Menu\Scripts\Button.cs" />
+     <Compile Include="Assets\Menu\Scripts\MenuMamager.cs" />
      <Compile Include="Assets\Scripts\DrawDistance.cs" />
      <Compile Include="Assets\Scripts\Gyro\Aim.cs" />
      <Compile Include="Assets\Scripts\Gyro\Crosshair.cs" />
@@ -60,6 +63,7 @@
      <Compile Include="Assets\Scripts\Paths\Path2Turtle.cs" />
      <Compile Include="Assets\Scripts\Paths\Path3Turtle.cs" />
      <Compile Include="Assets\Scripts\Paths\Path4Turtle.cs" />
+     <Compile Include="Assets\Scripts\ResultTurtle.cs" />
      <Compile Include="Assets\Scripts\RockDelete.cs" />
      <Compile Include="Assets\Scripts\SharkCollision.cs" />
      <Compile Include="Assets\Scripts\TurnAround.cs" />
@@ -74,6 +78,7 @@
      <Compile Include="Assets\Scripts\misc\Gravity.cs" />
      <Compile Include="Assets\Scripts\misc\MoveBreaker.cs" />
      <Compile Include="Assets\Scripts\misc\MoveShark.cs" />
+     <Compile Include="Assets\Sound\Scripts\SoundManager.cs" />
      <Compile Include="Assets\uGui\Scripts\Alpha.cs" />
      <Compile Include="Assets\uGui\Scripts\Energy.cs" />
      <Compile Include="Assets\uGui\Scripts\EnergyController.cs" />
