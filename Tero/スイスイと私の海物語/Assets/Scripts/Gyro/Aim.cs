@@ -2,10 +2,10 @@
 using System.Collections;
 
 public class Aim : MonoBehaviour {
-	private float distance = 100.0f;
+	private float distance = 200.0f;
 	public bool FirstCoral = false;
 	// Update is called once per frame
-
+	public GameObject Effect;
 	public GameObject Scenario1;
 	public GameObject Scenario2;
 
@@ -16,15 +16,19 @@ public class Aim : MonoBehaviour {
 			
 			if (Physics.Raycast (ray, out hit, distance)) {
 				if (GameObject.Find ("Meter").GetComponent<MeterController> ().SetHit (hit.collider.tag == "FirstCoral")) {
-					//FirstCoral = true;
+					FirstCoral = true;
 					Scenario2.SetActive (true);
 					if (hit.transform.gameObject.tag == "FirstCoral") {
+						Instantiate (Effect, hit.transform.position, Quaternion.identity);
 						Destroy (hit.transform.gameObject);
 						GameObject.Find ("ScoreManager").GetComponent<ScoreManager> ().AddScore(150);
 					}
 				}
-				if (FirstCoral && GameObject.Find ("Meter").GetComponent<MeterController> ().SetHit (hit.collider.tag == "Coral")) {
+				//if (FirstCoral && GameObject.Find ("Meter").GetComponent<MeterController> ().SetHit (hit.collider.tag == "Coral")) {
+				if (FirstCoral) {
 					if (hit.transform.gameObject.tag == "Coral") {
+						Instantiate (Effect, hit.transform.position, Quaternion.identity);
+				
 						Destroy (hit.transform.gameObject);
 						GameObject.Find ("ScoreManager").GetComponent<ScoreManager> ().AddScore(150);
 					}

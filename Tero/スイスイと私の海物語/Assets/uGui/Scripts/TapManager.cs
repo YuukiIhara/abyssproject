@@ -3,6 +3,7 @@ using System.Collections;
 
 public class TapManager : MonoBehaviour {
 
+	private bool tutorial = false;
 	// レクトトランスフォームの宣言
 	RectTransform  rectTransform;
 	// レンダラーの宣言
@@ -38,9 +39,10 @@ public class TapManager : MonoBehaviour {
 			{
 				bTapFlag = true;
 			}
-			if(txt.GetComponent<ScriptController>().GetLine() == 4)
+			if(txt.GetComponent<ScriptController>().GetLine() == 4 && !tutorial)
 			{
 				bTapFlag = false;
+				tutorial = true;
 			}
 		}
 
