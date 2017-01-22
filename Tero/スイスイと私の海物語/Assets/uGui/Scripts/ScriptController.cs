@@ -81,7 +81,7 @@ public class ScriptController : MonoBehaviour {
 			// シナリオ終了時、一定時間後にオブジェクトを非表示
 			if (ScriptFlag == true) {
 				Cnt++;
-				if (Cnt > 60) {
+				if (Cnt > 30) {
 					// フラグ設定(他オブジェクトからはコレを参照)
 					Flag = true;
 			

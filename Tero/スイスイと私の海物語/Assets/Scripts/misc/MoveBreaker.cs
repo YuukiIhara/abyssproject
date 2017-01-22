@@ -20,7 +20,7 @@ public class MoveBreaker : MonoBehaviour {
 
 			if(!tapped)GameObject.Find ("Tap").GetComponent<TapManager> ().SetTapFlag(true);
 
-			if (Input.touchCount > 0) {
+			if (Input.touchCount > 0 || Input.GetMouseButton(0)) {
 				MoveRock = true;
 				GameObject.Find ("Tap").GetComponent<TapManager> ().SetTapFlag(false);
 				tapped = true;

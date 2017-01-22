@@ -18,6 +18,7 @@ public class IntroPlayer : MonoBehaviour {
 	public GameObject txt;
 	// スイスイの回転角
 	float rotY;
+	float rotZ;
 	// Use this for initialization
 	void Start () 
 	{
@@ -30,7 +31,8 @@ public class IntroPlayer : MonoBehaviour {
 		PlayerMove = new Vector3 (PlayerMove.x/fLengse/120,0,PlayerMove.z/fLengse/120);
 
 		rotY = 110.0f;
-		suisui.transform.rotation = Quaternion.Euler(0,rotY,0);
+		rotZ = 26.0f;
+		suisui.transform.rotation = Quaternion.Euler(0,rotY,rotZ);
 	}
 	
 	// Update is called once per frame
@@ -60,7 +62,8 @@ public class IntroPlayer : MonoBehaviour {
 			if(PlayerMoveCount > 0 && PlayerMoveCount <= 120)
 			{
 				rotY += 1.35f;
-				suisui.transform.rotation = Quaternion.Euler(0,rotY,0);
+				rotZ -= rotZ / 120;
+				suisui.transform.rotation = Quaternion.Euler(0,rotY,rotZ);
 			}
 
 			// スイスイまで近づく処理
@@ -90,7 +93,7 @@ public class IntroPlayer : MonoBehaviour {
 				}
 				// スイスイの移動処理
 				suisui.GetComponent<Transform>().position += new Vector3 (0,0,0.03f*PlayerRot);
-				if(PlayerMoveCount > 480 && PlayerMoveCount <= 620)
+				if(PlayerMoveCount > 480 && PlayerMoveCount <= 560)
 				{
 					PlayerRotY += Mathf.PI/2 / 140f;
 					suisui.GetComponent<Transform>().position += new Vector3 (0,-Mathf.Sin(PlayerRotY)/45,0);

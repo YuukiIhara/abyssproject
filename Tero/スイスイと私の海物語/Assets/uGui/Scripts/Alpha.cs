@@ -31,7 +31,7 @@ public class Alpha : MonoBehaviour {
 		{
 			if(fAlpha < 1.0f)
 			{
-				fAlpha += 0.02f;
+				fAlpha += 0.04f;
 				renderer.SetAlpha(fAlpha);
 			}
 		}
@@ -40,7 +40,7 @@ public class Alpha : MonoBehaviour {
 		{
 			if(fAlpha > 0.0f)
 			{
-				fAlpha -= 0.02f;
+				fAlpha -= 0.04f;
 				renderer.SetAlpha(fAlpha);
 			}
 		}

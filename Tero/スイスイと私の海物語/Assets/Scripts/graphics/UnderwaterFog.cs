@@ -17,9 +17,13 @@ public class UnderwaterFog : MonoBehaviour {
 	private Material defaultSkybox;
 	private Material noSkybox;
 	new Camera camera;
-
+	private bool lowambient;
+	private bool highambient;
+	private bool cave = false;
 	void Start () {
 		//Set the background color
+		lowambient = false;
+		highambient = false;
 		lowfog = false;
 		highfog = false;
 		defaultFog = RenderSettings.fog;
@@ -47,13 +51,25 @@ public class UnderwaterFog : MonoBehaviour {
 			}
 			if (GameObject.Find ("Turtle").transform.position.z < -1760) {
 				//RenderSettings.fogDensity = 0.0006f;
-				RenderSettings.fog = false;
-				RenderSettings.skybox = defaultSkybox;
+				if (!cave) {
+					RenderSettings.fog = false;
+					RenderSettings.skybox = defaultSkybox;
+				}
+
 			}
-			if (GameObject.Find ("Turtle").transform.position.z < -2140) {
+			if (GameObject.Find ("Turtle").transform.position.z < -1790 && !highambient) {
+				RenderSettings.ambientIntensity = 1.7f;
+				DynamicGI.UpdateEnvironment();
+				highambient = true;
+			}
+			if (GameObject.Find ("Turtle").transform.position.z < -2140 && !lowambient) {
 				//RenderSettings.fogDensity = 0.0006f;
+				cave = true;
 				RenderSettings.fog = true;
 				RenderSettings.skybox = noSkybox;
+				RenderSettings.ambientIntensity = 0.3f;
+				DynamicGI.UpdateEnvironment();
+				lowambient = true;
 			}
 		}
 	}

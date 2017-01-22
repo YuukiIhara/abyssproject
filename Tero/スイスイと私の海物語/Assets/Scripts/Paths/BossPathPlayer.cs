@@ -17,7 +17,7 @@ public class BossPathPlayer : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (GameObject.Find ("Boss").transform.position.z < -2300 && !resume) {
-			GameObject.Find ("SoundManager").GetComponent<SoundManager> ().SetSound (0, true, 2);
+			GameObject.Find ("SoundManager").GetComponent<SoundManager> ().SetSound(0,true,2);
 			Scenario5.SetActive (true);
 			iTween.Pause (GameObject.Find("Boss"));
 		}

@@ -6,12 +6,13 @@ public class Path1Turtle : MonoBehaviour
 	public bool resume = false;
 	public bool CoralGet = false;
 	public bool once = false;
+	private Material defaultSkybox;
 	// Use this for initialization
 	void Start()
 	{
-		GameObject.Find ("SoundManager").GetComponent<SoundManager>().SetSound(6,true,2);
+		defaultSkybox = RenderSettings.skybox;
+		GameObject.Find ("SoundManager").GetComponent<SoundManager> ().SetSound(6,true,2);
 	}
-
 	void Update()
 	{
 		//if (GameObject.Find ("Camera Player").GetComponent<Aim> ().FirstCoral) {

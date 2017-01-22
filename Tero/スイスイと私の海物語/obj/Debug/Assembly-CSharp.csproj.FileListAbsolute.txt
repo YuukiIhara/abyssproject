@@ -88,3 +88,47 @@ C:\Users\tero.maenranta\Desktop\Backup\Backup backup\スイスイと私の海物
 C:\Users\tero.maenranta\Desktop\Backup\Backup backup\スイスイと私の海物語\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\tero.maenranta\Desktop\Backup\Backup backup\スイスイと私の海物語\obj\Debug\Assembly-CSharp.dll
 C:\Users\tero.maenranta\Desktop\Backup\Backup backup\スイスイと私の海物語\obj\Debug\Assembly-CSharp.pdb
+D:\Backup\スイスイと私の海物語\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+D:\Backup\スイスイと私の海物語\obj\Debug\Assembly-CSharp.dll
+D:\Backup\スイスイと私の海物語\obj\Debug\Assembly-CSharp.pdb
+D:\Backup\スイスイと私の海物語\Temp\bin\Debug\Assembly-CSharp.dll
+D:\Backup\スイスイと私の海物語\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\Backup\スイスイと私の海物語\Temp\bin\Debug\UnityEditor.dll
+D:\Backup\スイスイと私の海物語\Temp\bin\Debug\UnityEngine.dll
+D:\Backup\スイスイと私の海物語\Temp\bin\Debug\UnityEngine.Networking.dll
+D:\Backup\スイスイと私の海物語\Temp\bin\Debug\UnityEngine.UI.dll
+D:\Backup\スイスイと私の海物語\Temp\bin\Debug\Mono.Cecil.dll
+D:\Backup\スイスイと私の海物語\Temp\bin\Debug\Unity.SerializationLogic.dll
+D:\Backup\スイスイと私の海物語\Temp\bin\Debug\Unity.DataContract.dll
+D:\Backup\スイスイと私の海物語\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+D:\Backup\スイスイと私の海物語\Temp\bin\Debug\Unity.UNetWeaver.dll
+D:\Backup\スイスイと私の海物語\Temp\bin\Debug\Unity.CecilTools.dll
+D:\Backup\スイスイと私の海物語\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+D:\Backup\スイスイと私の海物語\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+D:\Backup\スイスイと私の海物語\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+D:\Backup\スイスイと私の海物語\Temp\bin\Debug\UnityEngine.xml
+D:\Backup\スイスイと私の海物語\Temp\bin\Debug\UnityEditor.xml
+D:\Backup\スイスイと私の海物語\Temp\bin\Debug\UnityEngine.UI.xml
+D:\Backup\スイスイと私の海物語\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\tero.maenranta\Desktop\Unity\Tero\スイスイと私の海物語\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\tero.maenranta\Desktop\Unity\Tero\スイスイと私の海物語\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\tero.maenranta\Desktop\Unity\Tero\スイスイと私の海物語\Temp\bin\Debug\UnityEditor.dll
+C:\Users\tero.maenranta\Desktop\Unity\Tero\スイスイと私の海物語\Temp\bin\Debug\UnityEngine.dll
+C:\Users\tero.maenranta\Desktop\Unity\Tero\スイスイと私の海物語\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\tero.maenranta\Desktop\Unity\Tero\スイスイと私の海物語\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\tero.maenranta\Desktop\Unity\Tero\スイスイと私の海物語\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\tero.maenranta\Desktop\Unity\Tero\スイスイと私の海物語\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\tero.maenranta\Desktop\Unity\Tero\スイスイと私の海物語\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\tero.maenranta\Desktop\Unity\Tero\スイスイと私の海物語\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\tero.maenranta\Desktop\Unity\Tero\スイスイと私の海物語\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\tero.maenranta\Desktop\Unity\Tero\スイスイと私の海物語\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\tero.maenranta\Desktop\Unity\Tero\スイスイと私の海物語\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\tero.maenranta\Desktop\Unity\Tero\スイスイと私の海物語\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\tero.maenranta\Desktop\Unity\Tero\スイスイと私の海物語\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\tero.maenranta\Desktop\Unity\Tero\スイスイと私の海物語\Temp\bin\Debug\UnityEngine.xml
+C:\Users\tero.maenranta\Desktop\Unity\Tero\スイスイと私の海物語\Temp\bin\Debug\UnityEditor.xml
+C:\Users\tero.maenranta\Desktop\Unity\Tero\スイスイと私の海物語\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\tero.maenranta\Desktop\Unity\Tero\スイスイと私の海物語\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\tero.maenranta\Desktop\Unity\Tero\スイスイと私の海物語\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\tero.maenranta\Desktop\Unity\Tero\スイスイと私の海物語\obj\Debug\Assembly-CSharp.dll
+C:\Users\tero.maenranta\Desktop\Unity\Tero\スイスイと私の海物語\obj\Debug\Assembly-CSharp.pdb

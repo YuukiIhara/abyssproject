@@ -15,7 +15,7 @@ public class Aim : MonoBehaviour {
 		if (GameObject.Find ("Scenario1_00").GetComponent<ScriptController> ().Flag) {
 			
 			if (Physics.Raycast (ray, out hit, distance)) {
-				if (GameObject.Find ("Meter").GetComponent<MeterController> ().SetHit (hit.collider.tag == "FirstCoral")) {
+				//if (GameObject.Find ("Meter").GetComponent<MeterController> ().SetHit (hit.collider.tag == "FirstCoral")) {
 					FirstCoral = true;
 					Scenario2.SetActive (true);
 					if (hit.transform.gameObject.tag == "FirstCoral") {
@@ -23,7 +23,7 @@ public class Aim : MonoBehaviour {
 						Destroy (hit.transform.gameObject);
 						GameObject.Find ("ScoreManager").GetComponent<ScoreManager> ().AddScore(150);
 					}
-				}
+				//}
 				//if (FirstCoral && GameObject.Find ("Meter").GetComponent<MeterController> ().SetHit (hit.collider.tag == "Coral")) {
 				if (FirstCoral) {
 					if (hit.transform.gameObject.tag == "Coral") {

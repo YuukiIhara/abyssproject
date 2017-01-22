@@ -16,12 +16,12 @@ public class ResultTurtle : MonoBehaviour {
 		if (GameObject.Find ("Turtle").transform.position.z < -3730) {
 
 			if (!bgm) {
-				GameObject.Find ("SoundManager").GetComponent<SoundManager> ().SetSound (0, true, 1);
+				GameObject.Find ("SoundManager").GetComponent<SoundManager>().SetSound(0,true,1);
 				bgm = true;
 			}
 		}
 		if (GameObject.Find ("Fade").GetComponent<FadeManager> ().GetFadeOutFlag ()) {
-			GameObject.Find ("SoundManager").GetComponent<SoundManager> ().SetSound (4, true, 2);
+			GameObject.Find ("SoundManager").GetComponent<SoundManager> ().SetSound(4,true,2);
 			GameObject.Find ("Fade").GetComponent<FadeManager> ().SetFade(false);
 			GameObject.Find ("Turtle").transform.position = new Vector3 (-220,-322,-633);
 			moved = true;

@@ -17,7 +17,7 @@ public class Path3Turtle : MonoBehaviour {
 		if (GameObject.Find ("Turtle").transform.position.z < -8) {
 			Scenario4.SetActive (true);
 			if (!bgm) {
-				GameObject.Find ("SoundManager").GetComponent<SoundManager> ().SetSound (3, true, 2);
+				GameObject.Find ("SoundManager").GetComponent<SoundManager> ().SetSound(3,true,2);
 				bgm = true;
 			}
 		}

@@ -46,9 +46,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\CoralEffect\Scripts\Charge_011DualRibbon.cs" />
+     <Compile Include="Assets\Introduction\Scripts\RotateWithKeybord.cs" />
      <Compile Include="Assets\Menu\Scripts\Button.cs" />
      <Compile Include="Assets\Menu\Scripts\MenuMamager.cs" />
+     <Compile Include="Assets\Scripts\AllocMem.cs" />
      <Compile Include="Assets\Scripts\DrawDistance.cs" />
+     <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\Gyro\Aim.cs" />
      <Compile Include="Assets\Scripts\Gyro\Crosshair.cs" />
      <Compile Include="Assets\Scripts\Gyro\GyroRotate.cs" />
@@ -79,6 +82,7 @@
      <Compile Include="Assets\Scripts\misc\MoveBreaker.cs" />
      <Compile Include="Assets\Scripts\misc\MoveShark.cs" />
      <Compile Include="Assets\Sound\Scripts\SoundManager.cs" />
+     <Compile Include="Assets\Title\Scripts\TitlePathTurtle.cs" />
      <Compile Include="Assets\uGui\Scripts\Alpha.cs" />
      <Compile Include="Assets\uGui\Scripts\Energy.cs" />
      <Compile Include="Assets\uGui\Scripts\EnergyController.cs" />
@@ -86,6 +90,7 @@
      <Compile Include="Assets\uGui\Scripts\EvaluationLavel.cs" />
      <Compile Include="Assets\uGui\Scripts\FadeManager.cs" />
      <Compile Include="Assets\uGui\Scripts\Gyro.cs" />
+     <Compile Include="Assets\uGui\Scripts\GyroRotateIntro.cs" />
      <Compile Include="Assets\uGui\Scripts\IntroPlayer.cs" />
      <Compile Include="Assets\uGui\Scripts\MeterColor.cs" />
      <Compile Include="Assets\uGui\Scripts\MeterController.cs" />

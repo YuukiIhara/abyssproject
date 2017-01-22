@@ -14,7 +14,7 @@ public class Gravity : MonoBehaviour {
 		if (GameObject.Find ("Turtle").transform.position.z < 12.0) {
 			rb.isKinematic = false;
 			if (!bgm) {
-				GameObject.Find ("SoundManager").GetComponent<SoundManager> ().SetSound (6, true, 1);
+				GameObject.Find ("SoundManager").GetComponent<SoundManager> ().SetSound(6,true,1);
 				bgm = true;
 			}
 		}
