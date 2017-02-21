@@ -1,0 +1,467 @@
+fileFormatVersion: 2
+guid: 23a4df58a81bcee43bd26f51e2a60444
+timeCreated: 1483612354
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Lamp
+    100004: ref.001_ref_greatwhiteshark
+    100006: ref.001_ref_greatwhiteshark_eye
+    100008: ref.001_ref_greatwhiteshark_teet
+    100010: //RootNode
+    400000: Camera
+    400002: Lamp
+    400004: ref.001_ref_greatwhiteshark
+    400006: ref.001_ref_greatwhiteshark_eye
+    400008: ref.001_ref_greatwhiteshark_teet
+    400010: //RootNode
+    2300000: ref.001_ref_greatwhiteshark
+    2300002: ref.001_ref_greatwhiteshark_eye
+    2300004: ref.001_ref_greatwhiteshark_teet
+    3300000: ref.001_ref_greatwhiteshark
+    3300002: ref.001_ref_greatwhiteshark_eye
+    3300004: ref.001_ref_greatwhiteshark_teet
+    4300000: ref.001_ref_greatwhiteshark_teet
+    4300002: ref.001_ref_greatwhiteshark_eye
+    4300004: ref.001_ref_greatwhiteshark
+    7400000: ref.001_ref_greatwhiteshark_teet|ref.001_ref_greatwhiteshark_eyeAction
+    7400002: ref.001_ref_greatwhiteshark_teet|ref.001_ref_greatwhiteshark_teetAction
+    7400004: ref.001_ref_greatwhiteshark_teet|ref.001_ref_greatwhitesharkAction
+    7400006: ref.001_ref_greatwhiteshark_eye|ref.001_ref_greatwhiteshark_eyeAction
+    7400008: ref.001_ref_greatwhiteshark_eye|ref.001_ref_greatwhiteshark_teetAction
+    7400010: ref.001_ref_greatwhiteshark_eye|ref.001_ref_greatwhitesharkAction
+    7400012: ref.001_ref_greatwhiteshark|ref.001_ref_greatwhiteshark_eyeAction
+    7400014: ref.001_ref_greatwhiteshark|ref.001_ref_greatwhiteshark_teetAction
+    7400016: ref.001_ref_greatwhiteshark|ref.001_ref_greatwhitesharkAction
+    7400018: ref.001_ref_greatwhiteshark_teet|ref.001_ref_greatwhitesharkAction0
+    7400020: ref.001_ref_greatwhiteshark|ref.001_ref_greatwhitesharkAction0
+    7400022: ref.001_ref_greatwhiteshark|ref.001_ref_greatwhiteshark_eyeAction0
+    7400024: ref.001_ref_greatwhiteshark_eye|ref.001_ref_greatwhitesharkAction0
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ref.001_ref_greatwhiteshark|ref.001_ref_greatwhitesharkAction0
+      takeName: ref.001_ref_greatwhiteshark|ref.001_ref_greatwhitesharkAction
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark_eye
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark_teet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ref.001_ref_greatwhiteshark_teet|ref.001_ref_greatwhiteshark_teetAction
+      takeName: ref.001_ref_greatwhiteshark_teet|ref.001_ref_greatwhiteshark_teetAction
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark_eye
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark_teet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ref.001_ref_greatwhiteshark_teet|ref.001_ref_greatwhitesharkAction
+      takeName: ref.001_ref_greatwhiteshark_teet|ref.001_ref_greatwhitesharkAction
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark_eye
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark_teet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ref.001_ref_greatwhiteshark_eye|ref.001_ref_greatwhiteshark_eyeAction
+      takeName: ref.001_ref_greatwhiteshark_eye|ref.001_ref_greatwhiteshark_eyeAction
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark_eye
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark_teet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ref.001_ref_greatwhiteshark_eye|ref.001_ref_greatwhiteshark_teetAction
+      takeName: ref.001_ref_greatwhiteshark_eye|ref.001_ref_greatwhiteshark_teetAction
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark_eye
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark_teet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ref.001_ref_greatwhiteshark_eye|ref.001_ref_greatwhitesharkAction
+      takeName: ref.001_ref_greatwhiteshark_eye|ref.001_ref_greatwhitesharkAction
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark_eye
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark_teet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ref.001_ref_greatwhiteshark|ref.001_ref_greatwhiteshark_eyeAction
+      takeName: ref.001_ref_greatwhiteshark|ref.001_ref_greatwhiteshark_eyeAction
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark_eye
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark_teet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ref.001_ref_greatwhiteshark|ref.001_ref_greatwhiteshark_teetAction
+      takeName: ref.001_ref_greatwhiteshark|ref.001_ref_greatwhiteshark_teetAction
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark_eye
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark_teet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ref.001_ref_greatwhiteshark|ref.001_ref_greatwhitesharkAction
+      takeName: ref.001_ref_greatwhiteshark|ref.001_ref_greatwhitesharkAction
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark_eye
+        weight: 1
+      - path: ref.001_ref_greatwhiteshark_teet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

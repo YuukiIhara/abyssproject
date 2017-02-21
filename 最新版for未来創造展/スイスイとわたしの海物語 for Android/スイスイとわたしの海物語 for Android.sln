@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{C13206D0-57AB-B773-3B7F-B4DA9DDF2A14}") = "スイスイとわたしの海物語 for Android", "Assembly-CSharp-firstpass.csproj", "{23CC53C2-E29F-89B8-6D0C-3B5572EA77BE}"
+EndProject
+Project("{C13206D0-57AB-B773-3B7F-B4DA9DDF2A14}") = "スイスイとわたしの海物語 for Android", "Assembly-CSharp.csproj", "{34A67032-1659-33AD-81B4-99691F3C6826}"
+EndProject
+Project("{C13206D0-57AB-B773-3B7F-B4DA9DDF2A14}") = "スイスイとわたしの海物語 for Android", "Assembly-CSharp-Editor-firstpass.csproj", "{874AD19A-B26E-9BE0-6CC0-E705C8B1AD60}"
+EndProject
+Project("{C13206D0-57AB-B773-3B7F-B4DA9DDF2A14}") = "スイスイとわたしの海物語 for Android", "Assembly-CSharp-Editor.csproj", "{F26FC159-88EA-3BA5-92C2-2B43B72223F6}"
+EndProject
+Project("{C13206D0-57AB-B773-3B7F-B4DA9DDF2A14}") = "スイスイとわたしの海物語 for Android", "Assembly-UnityScript.unityproj", "{8C1C050B-93E4-E892-E34A-862202BE7E56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23CC53C2-E29F-89B8-6D0C-3B5572EA77BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23CC53C2-E29F-89B8-6D0C-3B5572EA77BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23CC53C2-E29F-89B8-6D0C-3B5572EA77BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23CC53C2-E29F-89B8-6D0C-3B5572EA77BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34A67032-1659-33AD-81B4-99691F3C6826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A67032-1659-33AD-81B4-99691F3C6826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A67032-1659-33AD-81B4-99691F3C6826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A67032-1659-33AD-81B4-99691F3C6826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{874AD19A-B26E-9BE0-6CC0-E705C8B1AD60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{874AD19A-B26E-9BE0-6CC0-E705C8B1AD60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{874AD19A-B26E-9BE0-6CC0-E705C8B1AD60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{874AD19A-B26E-9BE0-6CC0-E705C8B1AD60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F26FC159-88EA-3BA5-92C2-2B43B72223F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26FC159-88EA-3BA5-92C2-2B43B72223F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26FC159-88EA-3BA5-92C2-2B43B72223F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26FC159-88EA-3BA5-92C2-2B43B72223F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C1C050B-93E4-E892-E34A-862202BE7E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C1C050B-93E4-E892-E34A-862202BE7E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C1C050B-93E4-E892-E34A-862202BE7E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C1C050B-93E4-E892-E34A-862202BE7E56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
